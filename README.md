@@ -1,15 +1,15 @@
 # image-to-stereo3d
 
 ## Overview
-A module for creating stereoscopic 3D videos by applying depth effects to 2D videos/images. This module processes input images with their corresponding depth maps to generate side-by-side stereoscopic output.
+A module for creating stereoscopic 3D images by applying depth effects to 2D images. This module processes an input image with its corresponding depth map to generate a side-by-side stereoscopic output.
 
 ## Module Inputs
-- **image**: Main image/video frame input (BufferedImage)
-- **depth**: Optional depth map image input (BufferedImage)
-- **depth-scale**: Numerical value to control the intensity of the 3D effect (Number)
+- **image**: Main image frame input
+- **depth**: Optional depth map image input
+- **depth-scale**: Numerical value to control the intensity of the 3D effect 
 
 ## Module Outputs
-- **stereo-image**: Side-by-side stereoscopic image output (BufferedImage)
+- **stereo-image**: Side-by-side stereoscopic image output 
 
 ## Notes
 - If no depth map is provided, one will be automatically generated using Depth Anything V2
